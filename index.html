@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+
+    <header class="p-3 text-center bg-light">
+        <h1>Pranayama timer</h1>
+    </header>
+
+    <div class="container mt-3">
+        <div class="container text-center">
+            <h2>chose you type of breathing</h2>
+        </div>
+        <div class="container text-center mt-2">
+            <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+            <label class="btn btn-outline-success" for="option1">5/10</label>
+
+            <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" >
+            <label class="btn btn-outline-success" for="option2">8/16</label>
+
+            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" >
+            <label class="btn btn-outline-success" for="option3">10/20</label>
+
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="container text-center">
+            <h2>chose time</h2>
+        </div>
+        <div class="container text-center mt-2">
+            <input type="radio" class="btn-check" name="options2" id="option4" autocomplete="off">
+            <label class="btn btn-outline-success" for="option4">5 min</label>
+
+            <input type="radio" class="btn-check" name="options2" id="option5" autocomplete="off" >
+            <label class="btn btn-outline-success" for="option5">10 min</label>
+
+            <input type="radio" class="btn-check" name="options2" id="option6" autocomplete="off" >
+            <label class="btn btn-outline-success" for="option6">15 min</label>
+
+
+        </div>
+    </div>
+
+    <div class="container text-center mt-4 ">
+        <button type="button" class="btn btn-success btn-lg" id="button">Start</button>
+    </div>
+
+    <div class="container">
+        <div class="container d-flex flex-row justify-content-center">
+            <div  id="timer" style="font-size: 5em;" >00</div>
+            <div  id="timer2" style="font-size: 5em;" >:</div>
+            <div  id="timer3" style="font-size: 5em;" >00</div>
+        </div>
+    </div>
+    <script src="timer.js"></script>
+    <div class="container text-center">
+        <div class="d-flex flex-row">
+            <div class="container"></div>
+            <div class="container border border-light">
+                <p style="font-size: 5em" id="timerIn">0</p>
+            </div>
+            <div class="container"></div>
+        </div>
+    </div>
+
+    <script src="breath.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

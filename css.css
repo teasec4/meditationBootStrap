@@ -1,4 +1,22 @@
 .container2{
-    padding: 70px 0 20px 0;
+    margin-top: 5em;
+}
+
+@media (min-width: 1000px)  {
+    .container2 {
+        margin-top: 5em;
+    }
+}
+
+@media (max-width: 830px) and (min-width: 620px) {
+    .container2 {
+        margin-top: 5em;
+    }
+}
+
+@media (max-width: 576px) and (min-width: 0px){
+    .container2 {
+        margin: 1em 0;
+    }
 }
 

@@ -3250,32 +3250,32 @@ textarea.form-control-lg {
 
 .btn-my1 {
   color: #fff;
-  background-color: #9aabb4;
-  border-color: #9aabb4;
+  background-color: #F56056;
+  border-color: #F56056;
 }
 .btn-my1:hover {
   color: #fff;
-  background-color: #7ca3b6;
-  border-color: #7ca3b6;
+  background-color: #f5463c;
+  border-color: #f5463c;
 }
 .btn-check:focus + .btn-my1, .btn-my1:focus {
   color: #fff;
-  background-color: #9aabb4;
-  border-color:#9aabb4;
-  box-shadow: 0 0 0 0.25rem rgba(154, 171, 180, 0.57);
+  background-color: #F56056;
+  border-color:#F56056;
+  box-shadow: 0 0 0 0.25rem rgba(245, 96, 86, 0.51);
 }
 .btn-check:checked + .btn-my1, .btn-check:active + .btn-my1, .btn-my1:active, .btn-my1.active, .show > .btn-my1.dropdown-toggle {
   color: #fff;
-  background-color: #9aabb4;
-  border-color: #9aabb4;
+  background-color: #F56056;
+  border-color: #F56056;
 }
 .btn-check:checked + .btn-my1:focus, .btn-check:active + .btn-my1:focus, .btn-my1:active:focus, .btn-my1.active:focus, .show > .btn-my1.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(154, 171, 180, 0.57);
+  box-shadow: 0 0 0 0.25rem rgba(245, 96, 86, 0.51);
 }
 .btn-my1:disabled, .btn-my1.disabled {
   color: #fff;
-  background-color: #9aabb4;
-  border-color: #9aabb4;
+  background-color: #F56056;
+  border-color: #F56056;
 }
 
 

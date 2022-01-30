@@ -2,25 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <title>Pranayama timer</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="css.css" rel="stylesheet">
+    <title>Pranayama timer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
 
 </head>
-
-<body style="background-color: #F5E287;">
+<body>
 
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: #F56056;">
 
         <div class="container-fluid">
-
+            <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-tree" viewBox="0 0 16 16">
+                    <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"/>
+                </svg>
+            </a>
             <a class="navbar-brand fs-3" href="index.html">Pranayama timer</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -28,99 +32,91 @@
                 <ul class="navbar-nav me-auto mb-2 mb-md-0 ">
 
                     <li class="nav-item">
-                        <a class="nav-link "  href="#">Features</a>
+                        <a class="nav-link " href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link "  href="about-us.html">About us</a>
+                        <a class="nav-link " href="#">About us</a>
                     </li>
                 </ul>
-
             </div>
-
-
         </div>
-
 
     </nav>
 </header>
 
-<main>
-    <div class="container2">
-        <div class="container mt-2">
-            <div class="container text-center">
-                <h2 style="font-family:'Josefin Sans', sans-serif; ">chose you type of breathing</h2>
-            </div>
-            <div class="container text-center mt-2">
-                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
-                <label class="btn btn-outline-danger" for="option1">5/10</label>
-
-                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" >
-                <label class="btn btn-outline-danger" for="option2">8/16</label>
-
-                <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" >
-                <label class="btn btn-outline-danger" for="option3">10/20</label>
-
-
-            </div>
-        </div>
-
-        <div class="container mt-2">
-            <div class="container text-center">
-                <h2 style="font-family:'Josefin Sans', sans-serif; ">chose time</h2>
-            </div>
-            <div class="container text-center mt-2">
-                <input type="radio" class="btn-check" name="options2" id="option4" autocomplete="off">
-                <label class="btn btn-outline-danger" for="option4">5 min</label>
-
-                <input type="radio" class="btn-check" name="options2" id="option5" autocomplete="off" >
-                <label class="btn btn-outline-danger" for="option5">10 min</label>
-
-                <input type="radio" class="btn-check" name="options2" id="option6" autocomplete="off" >
-                <label class="btn btn-outline-danger" for="option6">15 min</label>
-
-            </div>
-        </div>
-
-        <div class="container text-center mt-3">
-            <button type="button" class="btn btn-lg " style="background-color: #6762F5; color: white;"  id="button">Start</button>
-        </div>
+<div class="container2">
+    <div class="container text-center">
+        <h2 style="font-family:'Josefin Sans', sans-serif; ">chose you type of breathing</h2>
     </div>
+    <div class="container text-center mt-2">
+        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+        <label class="btn btn-outline-danger" for="option1">5/10</label>
 
-    <div >
-        <div class="container ">
-            <div class="container d-flex flex-row justify-content-center rounded-3" style="background-color: #F5796F;">
-                <div  id="timer" style="font-size: 5em;" >00</div>
-                <div  id="timer2" style="font-size: 5em;" >:</div>
-                <div  id="timer3" style="font-size: 5em;" >00</div>
-            </div>
-        </div>
+        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" >
+        <label class="btn btn-outline-danger" for="option2">8/16</label>
 
-        <script src="timer.js"></script>
+        <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" >
+        <label class="btn btn-outline-danger" for="option3">10/20</label>
 
-        <div class="container text-center d-flex flex-row" >
-            <div class="container m-2"></div>
-            <div class="container" >
-                <p  style="font-size: 5em" id="timerIn">0</p>
-            </div>
-            <div class="container m-2"></div>
-        </div>
-
-        <div class="container" >
-            <footer class="py-3 my-4">
-                <ul class="nav justify-content-center border-bottom pb-3 mb-3" >
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"  >Pranayama timer</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                    <li class="nav-item"><a href="about-us.html" class="nav-link px-2 text-muted">About us</a></li>
-
-                </ul>
-                <p class="text-center text-muted">&copy; 2022 Kovalev, Inc</p>
-            </footer>
-        </div>
     </div>
+</div>
 
-    <script src="breath.js"></script>
+<div class="container">
+    <div class="container text-center">
+        <h2 style="font-family:'Josefin Sans', sans-serif; ">chose time</h2>
+    </div>
+    <div class="container text-center mt-2">
+        <input type="radio" class="btn-check" name="options2" id="option4" autocomplete="off">
+        <label class="btn btn-outline-danger" for="option4">5 min</label>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-</main>
+        <input type="radio" class="btn-check" name="options2" id="option5" autocomplete="off" >
+        <label class="btn btn-outline-danger" for="option5">10 min</label>
+
+        <input type="radio" class="btn-check" name="options2" id="option6" autocomplete="off" >
+        <label class="btn btn-outline-danger" for="option6">15 min</label>
+
+    </div>
+</div>
+<div class="container text-center mt-3">
+    <button type="button" class="btn btn-lg btn-danger ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+        <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+        <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+    </svg>
+
+    </button>
+</div>
+
+<div class="container">
+    <div class="container d-flex flex-row justify-content-center rounded-3">
+        <div  id="timer" style="font-size: 5em;" >00</div>
+        <div  id="timer2" style="font-size: 5em;" >:</div>
+        <div  id="timer3" style="font-size: 5em;" >00</div>
+    </div>
+    <script src="timer.js"></script>
+</div>
+
+
+<div class="container text-center">
+    <p style="font-size: 5em" id="timerIn">0</p>
+</div>
+
+
+<div class="container mt-5" >
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3" >
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted" >Pranayama timer</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About us</a></li>
+
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 Kovalev</p>
+    </footer>
+</div>
+
+<script src="breath.js"></script>
+
+
+<script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>

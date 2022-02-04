@@ -1,0 +1,47 @@
+.bText p{
+    font-size: 5em;
+}
+
+@media (min-width: 1200px)  {
+    .containerP {
+        padding: 6em 0;
+        align-content: center;
+        text-align: center
+    }
+    .containerP p{
+        font-size: 9em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .containerP {
+        padding: 6em 0;
+        align-content: center;
+        text-align: center
+    }
+    .containerP p{
+        font-size: 8em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .containerP {
+        padding: 5em 0;
+        align-content: center;
+        text-align: center
+    }
+    .containerP p{
+        font-size: 7em;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    .containerP {
+        padding: 4em 0;
+        align-content: center;
+        text-align: center
+    }
+    .containerP p{
+        font-size: 6em;
+    }
+}
